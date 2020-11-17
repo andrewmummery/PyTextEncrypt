@@ -21,8 +21,15 @@ The encrypted text file or message can be later decrypted
 using functions (2.) or (4.), provided that the decryption
 pin is identical to the pin used for encryption.  
 
-Function (5.) uses encrypt_message() and then sends the 
-encrypted message in an email. ONLY WORKS WITH GMAIL.
+Function (5.) uses encrypt_message() to encrypt some plain text.
+This plain text is then sent in an email. Note that this currently
+only works with gmail. Some modifications to your gmail account 
+settings will be required. By default gmail will block pythons 
+attempts to log in to your gmail account, as it deems it insecure.
+    
+To allow python access to your gmail, go to the following link
+https://myaccount.google.com/lesssecureapps
+and switch 'allow less secure apps' to ON. 
 
 **Notes:**
 
@@ -30,9 +37,9 @@ I. No inputs are required for the five main functions, if
 left as, e.g. textencryptor.encrypt_file(), the user will be 
 prompted for the required infromation, in this example:
 
-a. The path to the file to be encrypted.
-b. The encryption pin. 
-c. The path for the encrypted file to be saved to. 
+1. The path to the file to be encrypted.
+2. The encryption pin. 
+3. The path for the encrypted file to be saved to. 
 
 This information can of course be input, then no information
 will be required from the user, e.g. 
