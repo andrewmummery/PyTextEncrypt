@@ -4,14 +4,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="PyTextEncrypt", # Replace with your own username
+    name="TextEncryptor", # Replace with your own username
     version="0.0.1",
-    author="Example Author",
-    author_email="author@example.com",
-    description="A small example package",
+    author="Andrew Mummery",
+    author_email="andrew.mummery.software@gmail.com",
+    description="A small package which encrypts plain text",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    # url="https://github.com/pypa/sampleproject",
+    url="https://github.com/andrewmummery/TextEncryptor",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
