@@ -56,7 +56,7 @@ english language. Symbols used in many european languages
 and decryption proccess.  
 
 III. send_encrypted_email() ONLY works with gmail. See the 
-send_emcrypted_email() function for more information. 
+send_encrypted_email() function for more information. 
 
 
 ### How do I get set up? ###
